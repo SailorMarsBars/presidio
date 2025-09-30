@@ -8,12 +8,12 @@ engine = AnonymizerEngine()
 # analyzer results (potentially coming from presidio-analyzer) and
 # Operators to get the anonymization output:
 result = engine.anonymize(
-    text="My name is SailorMarsBars, SailorMarsBars",
+    text="My name is Edsel, Edsel Witkowski",
     analyzer_results=[
         RecognizerResult(entity_type="PERSON", start=11, end=15, score=0.8),
         RecognizerResult(entity_type="PERSON", start=17, end=27, score=0.8),
     ],
-    operators={"PERSON": OperatorConfig("replace", {"new_value": "BIP"})},
+    operators={"PERSON": OperatorConfig("replace", {"new_value": "SailorMarsBars"})},
 )
 
 print(result)
