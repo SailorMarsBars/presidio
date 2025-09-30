@@ -1,0 +1,11 @@
+new check
+origin	git@github.com:SailorMarsBars/presidio.git (fetch)
+origin	git@github.com:SailorMarsBars/presidio.git (push)
+0
+text: My name is BIPorBIPSailorMarsBars
+items:
+[
+    {'start': 16, 'end': 19, 'entity_type': 'PERSON', 'text': 'BIP', 'operator': 'replace'},
+    {'start': 11, 'end': 14, 'entity_type': 'PERSON', 'text': 'BIP', 'operator': 'replace'}
+]
+
